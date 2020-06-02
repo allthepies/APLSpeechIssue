@@ -1,0 +1,15 @@
+{
+  "name": "apl_speech_issue",
+  "version": "1.0.0",
+  "description": "Project to demonstrate speech issue when using APL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andy Whitworth",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk-core": "^2.8.0",
+    "ask-sdk-model": "^1.28.0"
+  }
+}

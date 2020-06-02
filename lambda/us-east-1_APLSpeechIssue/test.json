@@ -1,0 +1,25 @@
+{
+  "type": "APL",
+  "version": "1.3",
+  "mainTemplate": {
+    "parameters": [
+      "myDocumentData"
+    ],
+    "items": [{
+      "type": "Container",
+      "direction": "row",
+      "width": "100vw",
+      "height": "100vh",
+      "alignItems": "center",
+      "justifyContent": "center",
+      "items": [{
+        "type": "Text",
+        "text": "${myDocumentData.text}",
+        "color": "#ffffff",
+        "width": "90vw",
+        "fontSize": "6vw",
+        "textAlign": "center"
+      }]
+    }]
+  }
+}
